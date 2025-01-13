@@ -1,0 +1,23 @@
+{
+	"name": "autoblue",
+	"version": "0.0.3",
+	"description": "Autoblue french translation.",
+	"scripts": {
+		"generate-pot": "wp i18n make-pot . autoblue.pot --include=\"autoblue.php,build,includes,uninstall.php\"",
+		"i18n-json": "wp i18n make-json . --no-purge"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imath/autoblue-fr-fr.git"
+	},
+	"keywords": [
+		"retraceur-language",
+		"french"
+	],
+	"author": "imath",
+	"license": "CC0-1.0",
+	"bugs": {
+		"url": "https://github.com/imath/autoblue-fr-fr/issues"
+	},
+	"homepage": "https://github.com/imath/autoblue-fr-fr#readme"
+}
