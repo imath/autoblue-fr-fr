@@ -1,6 +1,6 @@
 {
 	"name": "autoblue",
-	"version": "0.0.3",
+	"version": "0.0.6",
 	"description": "Autoblue french translation.",
 	"scripts": {
 		"generate-pot": "wp i18n make-pot . autoblue.pot --include=\"autoblue.php,build,includes,uninstall.php\"",

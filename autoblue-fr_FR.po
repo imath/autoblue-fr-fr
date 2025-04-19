@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Autoblue 0.0.3\n"
-"Report-Msgid-Bugs-To: https://github.com/imath/autoblue-fr-fr/issues\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autoblue\n"
+"POT-Creation-Date: 2025-04-19T05:44:31+00:00\n"
+"PO-Revision-Date: 2025-04-19 07:47+0200\n"
+"Last-Translator: \n"
 "Language-Team: imath <contact@imathi.eu>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-12T13:47:40+00:00\n"
-"PO-Revision-Date: 2025-01-12 16:24+0100\n"
 "X-Generator: Poedit 2.3.1\n"
 "X-Domain: autoblue\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language: fr\n"
 
 #. Plugin Name of the plugin
 #: autoblue.php
@@ -65,13 +65,13 @@ msgstr "Le niveau de journalisation pour Autoblue."
 msgid "The current database version."
 msgstr "La version en base de données actuelle."
 
-#: includes/Bluesky.php:52
+#: includes/Bluesky.php:65
 msgid "Skipping image: Failed to find image with ID `{attachment_id}`."
 msgstr ""
 "Image ignorée : Autoblue n’est pas parvenu à trouver une image ayant pour ID "
 "`{attachment_id}`."
 
-#: includes/Bluesky.php:61
+#: includes/Bluesky.php:74
 msgid ""
 "Skipping image: Invalid mime type for image with ID `{attachment_id}`. "
 "Allowed types are `{allowed_types}`, but got `{mime_type}`."
@@ -80,49 +80,49 @@ msgstr ""
 "n’est pas valide. Les types pris en charge sont `{allowed_types}`, ce qui ne "
 "comprend pas `{mime_type}`."
 
-#: includes/Bluesky.php:75
+#: includes/Bluesky.php:88
 msgid "Skipping image: Compression failed for image with ID `{attachment_id}`."
 msgstr ""
 "Image ignorée : Autoblue n’est pas parvenu à compresser l’image ayant pour "
 "ID `{attachment_id}`."
 
-#: includes/Bluesky.php:82
+#: includes/Bluesky.php:95
 msgid ""
 "Skipping image: Failed to upload image with ID `{attachment_id}` to Bluesky:"
 msgstr ""
 "Image ignorée : Autoblue n’est pas parvenu à transférer l’image ayant pour "
 "ID `{attachment_id}` à Bluesky :"
 
-#: includes/Bluesky.php:87
+#: includes/Bluesky.php:100
 msgid "Uploaded image with ID `{attachment_id}` to Bluesky."
 msgstr ""
 "Autoblue a transféré l’image ayant pour ID `{attachment_id}` à Bluesky."
 
-#: includes/Bluesky.php:103 includes/PostHandler.php:113
+#: includes/Bluesky.php:116 includes/PostHandler.php:113
 msgid "Share failed: Post with ID {post_id} not found."
 msgstr ""
 "Le partage a échoué : Autoblue n’est pas parvenu à trouver l’article ayant "
 "pour ID `{post_id}`."
 
-#: includes/Bluesky.php:110
+#: includes/Bluesky.php:123
 msgid "Share failed: No Bluesky connection found."
 msgstr ""
 "Le partage a échoué : Autoblue n’est pas parvenu à trouver de connexion "
 "Bluesky."
 
-#: includes/Bluesky.php:118
+#: includes/Bluesky.php:130
 msgid "Failed to refresh Bluesky connection tokens before sharing:"
 msgstr ""
 "Autoblue n’est pas parvenu à rafraîchir les jetons de connexion de Bluesky "
 "avant sa tentative de partage :"
 
-#: includes/Bluesky.php:164
+#: includes/Bluesky.php:187
 msgid "Failed to share post with ID {post_id} to Bluesky:"
 msgstr ""
 "Autoblue n’est pas parvenu à partager l’article ayant pour ID `{post_id}` "
 "avec Bluesky :"
 
-#: includes/Bluesky.php:187
+#: includes/Bluesky.php:210
 msgid "Shared post {post_title} with ID {post_id} to Bluesky: {bluesky_url}"
 msgstr ""
 "L’article ayant pour titre {post_title} et ID {post_id} a été partagé avec "
@@ -263,7 +263,7 @@ msgstr ""
 msgid "A list of shares of the post."
 msgstr "La liste des partages effectués de l’article."
 
-#: includes/Meta.php:80
+#: includes/Meta.php:77
 msgid "A Bluesky post URL to show likes and replies from."
 msgstr ""
 "Une URL de publication sur Bluesky utilisée pour montrer les « likes » et "

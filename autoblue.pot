@@ -1,15 +1,15 @@
-# Translation of Autoblue
-# This file is distributed under the CC0-1.0 license.
+# Copyright (C) 2025 Daniel Post
+# This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Autoblue 0.0.3\n"
-"Report-Msgid-Bugs-To: https://github.com/imath/autoblue-fr-fr/issues\n"
+"Project-Id-Version: Autoblue 0.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autoblue\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: imath <contact@imathi.eu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-12T13:47:40+00:00\n"
+"POT-Creation-Date: 2025-04-19T05:44:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: autoblue\n"
@@ -65,44 +65,44 @@ msgstr ""
 msgid "The current database version."
 msgstr ""
 
-#: includes/Bluesky.php:52
+#: includes/Bluesky.php:65
 msgid "Skipping image: Failed to find image with ID `{attachment_id}`."
 msgstr ""
 
-#: includes/Bluesky.php:61
+#: includes/Bluesky.php:74
 msgid "Skipping image: Invalid mime type for image with ID `{attachment_id}`. Allowed types are `{allowed_types}`, but got `{mime_type}`."
 msgstr ""
 
-#: includes/Bluesky.php:75
+#: includes/Bluesky.php:88
 msgid "Skipping image: Compression failed for image with ID `{attachment_id}`."
 msgstr ""
 
-#: includes/Bluesky.php:82
+#: includes/Bluesky.php:95
 msgid "Skipping image: Failed to upload image with ID `{attachment_id}` to Bluesky:"
 msgstr ""
 
-#: includes/Bluesky.php:87
+#: includes/Bluesky.php:100
 msgid "Uploaded image with ID `{attachment_id}` to Bluesky."
 msgstr ""
 
-#: includes/Bluesky.php:103
+#: includes/Bluesky.php:116
 #: includes/PostHandler.php:113
 msgid "Share failed: Post with ID {post_id} not found."
 msgstr ""
 
-#: includes/Bluesky.php:110
+#: includes/Bluesky.php:123
 msgid "Share failed: No Bluesky connection found."
 msgstr ""
 
-#: includes/Bluesky.php:118
+#: includes/Bluesky.php:130
 msgid "Failed to refresh Bluesky connection tokens before sharing:"
 msgstr ""
 
-#: includes/Bluesky.php:164
+#: includes/Bluesky.php:187
 msgid "Failed to share post with ID {post_id} to Bluesky:"
 msgstr ""
 
-#: includes/Bluesky.php:187
+#: includes/Bluesky.php:210
 msgid "Shared post {post_title} with ID {post_id} to Bluesky: {bluesky_url}"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "A list of shares of the post."
 msgstr ""
 
-#: includes/Meta.php:80
+#: includes/Meta.php:77
 msgid "A Bluesky post URL to show likes and replies from."
 msgstr ""
 
